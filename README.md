@@ -1,2 +1,2 @@
 # Spam_detector
-Detecting messages if they are spam or ham using bays theorem
+The Python code will detect messages if they are spam or ham using Bay's theorem. We have a collection of spam and ham messages in the SMSSpamCollection file, so I used those messages to train the model. I tried to classify each word found in both spam and ham messages and then find the count of each word. Finally, I tried to classify input messages as Spam or Ham by calculating the probability of the word occurrence in a ham or spam message.
